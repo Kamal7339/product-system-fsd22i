@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(249, 249, 250);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(120, 7, 250);
+    text-decoration: underline;
+  
+   
+
+}
+ table{
+    width: 50%;
+    margin: 40px auto;
+    background: rgb(13, 156, 218);
+} 
+
+table.list{
+    text-align: center;
+    width: 60%;
+}
+
+ td{
+    border: 1px solid rgb(238, 10, 10);
+    text-align: left;
+    padding: 8px 15px;
+} 
+
+
+    
+
+th{
+    background-color: rgb(228, 154, 59);
+    
+   
+}
+
+ tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(13, 156, 218);
+} 
+
+input[type="text"],input[type="number"]{
+    width:90%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:flex;
+    border: 1px solid rgb(90, 223, 46);
+    border-radius: 4px;
+    
+}
+label{
+   font-size: 1.3rem;
+   font-weight: bold;
+   color:black;
+   display: flex;
+}
+input[type="submit"],input[type="reset"]{
+    background: #1f940f;
+    color: antiquewhite;
+    padding:6px 12px;
+    margin:15px 0 10px; 
+    
+    display: inline-flex;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+   
+}
+
+input[type="submit"]:hover{
+    background: #e09909;
+}
+
+input[type="reset"]:hover{
+    background: #e09909;
+}
+
+button{
+    background:#1f940f;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: antiquewhite;
+    
+}
+
+button:hover{
+    background:#e09909 ;
+}
+#storeList{
+    background-color: rgb(13, 156, 218);
+    border-radius: 7PX;
+    
+    
+}
+
